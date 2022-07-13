@@ -5,8 +5,6 @@
 
 int main() {
   int i, head = 0, tail = 0;
-  char name[10];
-
   srand((unsigned int)time(NULL));
 
   printf("Tossing a coin...\n");
@@ -26,9 +24,9 @@ int main() {
   printf("Heads: %d, Tails: %d\n", head, tail);
 
   if(head == 2) {
-    printf("%s won!\n", name);
+    printf("you won!");
   } else {
-    printf("%s lost!\n", name);
+    printf("you lost");
   }
 
   return 0;
