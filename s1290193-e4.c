@@ -30,9 +30,9 @@ int main() {
   printf("Heads: %d, Tails: %d\n", head, tail);
 
   if(head == 2) {
-    printf("you won!\n");
+    printf("%s won!\n", name);
   } else {
-    printf("you lost\n");
+    printf("%s lost\n", name);
   }
 
   return 0;
